@@ -1,0 +1,76 @@
+<svg viewBox="0 0 500 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="450" fill="#f8f9fa" rx="15" ry="15"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" font-family="Montserrat, sans-serif" font-size="24" font-weight="600" text-anchor="middle" fill="#334756">Паттерны общения</text>
+  
+  <!-- Заголовки колонок -->
+  <text x="125" y="80" font-family="Montserrat, sans-serif" font-size="20" font-weight="600" text-anchor="middle" fill="#4caf50">Здоровые</text>
+  <text x="375" y="80" font-family="Montserrat, sans-serif" font-size="20" font-weight="600" text-anchor="middle" fill="#f44336">Нездоровые</text>
+  
+  <!-- Здоровые паттерны -->
+  <g id="healthy" transform="translate(30, 120)">
+    <!-- Паттерн 1 -->
+    <g class="pattern">
+      <rect x="0" y="0" width="190" height="60" rx="8" ry="8" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+      <text x="95" y="25" font-family="Montserrat, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Я-сообщения</text>
+      <text x="95" y="45" font-family="PT Serif, serif" font-size="12" text-anchor="middle" fill="#333">"Я чувствую..." вместо "Ты всегда..."</text>
+    </g>
+    
+    <!-- Паттерн 2 -->
+    <g class="pattern" transform="translate(0, 75)">
+      <rect x="0" y="0" width="190" height="60" rx="8" ry="8" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+      <text x="95" y="25" font-family="Montserrat, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Активное слушание</text>
+      <text x="95" y="45" font-family="PT Serif, serif" font-size="12" text-anchor="middle" fill="#333">Внимание к словам партнёра</text>
+    </g>
+    
+    <!-- Паттерн 3 -->
+    <g class="pattern" transform="translate(0, 150)">
+      <rect x="0" y="0" width="190" height="60" rx="8" ry="8" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+      <text x="95" y="25" font-family="Montserrat, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Конструктивная критика</text>
+      <text x="95" y="45" font-family="PT Serif, serif" font-size="12" text-anchor="middle" fill="#333">Фокус на поведении, не на личности</text>
+    </g>
+    
+    <!-- Паттерн 4 -->
+    <g class="pattern" transform="translate(0, 225)">
+      <rect x="0" y="0" width="190" height="60" rx="8" ry="8" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+      <text x="95" y="25" font-family="Montserrat, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Принятие ответственности</text>
+      <text x="95" y="45" font-family="PT Serif, serif" font-size="12" text-anchor="middle" fill="#333">Признание своих ошибок</text>
+    </g>
+  </g>
+  
+  <!-- Нездоровые паттерны -->
+  <g id="unhealthy" transform="translate(280, 120)">
+    <!-- Паттерн 1 -->
+    <g class="pattern">
+      <rect x="0" y="0" width="190" height="60" rx="8" ry="8" fill="#ffebee" stroke="#f44336" stroke-width="2"/>
+      <text x="95" y="25" font-family="Montserrat, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Обвинения</text>
+      <text x="95" y="45" font-family="PT Serif, serif" font-size="12" text-anchor="middle" fill="#333">"Ты всегда..." и "Ты никогда..."</text>
+    </g>
+    
+    <!-- Паттерн 2 -->
+    <g class="pattern" transform="translate(0, 75)">
+      <rect x="0" y="0" width="190" height="60" rx="8" ry="8" fill="#ffebee" stroke="#f44336" stroke-width="2"/>
+      <text x="95" y="25" font-family="Montserrat, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Игнорирование</text>
+      <text x="95" y="45" font-family="PT Serif, serif" font-size="12" text-anchor="middle" fill="#333">Избегание разговора о проблемах</text>
+    </g>
+    
+    <!-- Паттерн 3 -->
+    <g class="pattern" transform="translate(0, 150)">
+      <rect x="0" y="0" width="190" height="60" rx="8" ry="8" fill="#ffebee" stroke="#f44336" stroke-width="2"/>
+      <text x="95" y="25" font-family="Montserrat, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Критика личности</text>
+      <text x="95" y="45" font-family="PT Serif, serif" font-size="12" text-anchor="middle" fill="#333">Нападки на характер партнёра</text>
+    </g>
+    
+    <!-- Паттерн 4 -->
+    <g class="pattern" transform="translate(0, 225)">
+      <rect x="0" y="0" width="190" height="60" rx="8" ry="8" fill="#ffebee" stroke="#f44336" stroke-width="2"/>
+      <text x="95" y="25" font-family="Montserrat, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Защитное поведение</text>
+      <text x="95" y="45" font-family="PT Serif, serif" font-size="12" text-anchor="middle" fill="#333">Отрицание ответственности</text>
+    </g>
+  </g>
+  
+  <!-- Подпись -->
+  <text x="10" y="430" font-family="PT Serif, serif" font-size="12" text-anchor="left" fill="#666" font-style="italic">По материалам исследований Джона Готтмана</text>
+</svg>
